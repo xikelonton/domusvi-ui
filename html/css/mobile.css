@@ -1,0 +1,76 @@
+@media all and (max-width: 1200px) {
+    #page-container { max-width: 100%; overflow: hidden; }
+    #wrapper, .wrapper { max-width: 100%; }
+    .d-box { width: 48%;}
+    footer { padding: 20px;}
+}
+
+@media all and (max-width: 1024px) {
+    /*#header-fix, #dialogue, #hotline { display: none;}*/
+    /*header { margin-top: 0px; height: 60px; overflow: hidden;}*/
+    /*header #logo { background: url("../images/logo-mobile.png"); width: 100px; height: 20px; }*/
+    .d-box { width: 90%; float: none; margin: auto; margin-top: 12.5%;}
+    footer { padding: 20px;}
+    header .wrapper { height: 125px;}
+    #logo { position: absolute; left: 25%; margin-left: -104px;}
+    #hotline { right: 25%; margin-right: -135px;}
+    #home-you-want .item { text-align: center;}
+    #home-you-want a.more { display: inline-block !important; margin: 20px 0px;}
+    #home-you-find .item { text-align: center;}
+    #home-you-find .more { display: inline-block; margin: 20px 0px;}
+    #footer-top .seperator { border: none; height: 30px;}
+    .mobile-nav { display: block; cursor: pointer;}
+    .search-button { margin-top: 20px; text-indent: 0px;}
+    #home-find-form .label { text-align: left; margin-top: 20px;}
+    nav { position: absolute; right: 0px; top: 125px; z-index: 9999; display: none; width: 100%; text-align: center;}
+    nav a {}
+    #footer-top .seperator { border-top: solid 1px #fff; width: 100%; margin-top: 30px;}
+    .search-button { background: #a6192e; border-radius: 20px; color: #fff; width: 100%; line-height: 40px; margin-bottom: 20px;}
+    #footer-top .col-5, #footer-top .col-1, #footer-top .col-3, #footer-top .col-2 { display: block; width: 100%;}
+    #footer-top .col-3 a, #footer-top .col-2 a { width: 50%; text-align: left; float: left; }
+    .d-box .item:nth-child(even) { background-color: #fafaf2;}
+    .d-box .item:nth-child(odd) { background-color: transparent;}
+    #home-find-nearby { background: url("../images/mobile-map-bg.png") center center no-repeat;}
+    #home-boxes { background: url("../images/mobile-home-middle-bg.jpg") center 200px no-repeat;}
+    .tweet { margin: 0px; font-size: 16px; color: #fff; line-height: 28px; background: url("../images/icon-quote.png") center 0px no-repeat; padding: 25px 0px;}
+}
+
+@media all and (max-width: 767px) {
+    #header-fix { display: none;}
+    header { margin-top: 0px; height: 60px;}
+    #logo { background: url("../images/logo-mobile.png"); width: 100px; height: 20px; margin-left: -50px; margin-top: 20px;}
+    #hotline, #dialogue { display: none;}
+    header .wrapper { height: 60px;}
+    header .bg { height: 60px;}
+    nav { top: 60px; background: #edead5;}
+    nav a { display: block; line-height: 60px; text-align: right; padding-right: 20px; background: #edead5;}
+    nav .seperator { display: none;}
+    #home-banner .slide { background-position: top right;}
+
+    #home-find-form { width: 90%; left: 50%; margin-left: -45%; padding: 0px 50px;}
+
+    #home-find-form .label { text-align: center;}
+
+    #home-find-form .col-7 { width: 80%;}
+    #home-find-form .col-2 { float: right; width: 20%;}
+    #home-find-form .col-7.last { float: right; clear: both;}
+    #home-find-form .d-inputtext i { right: 15px;}
+    #hotline-mobile { display: block; position: relative; left: 50%; margin-left: -135px; }
+    .d-box h3 { font-size: 34px; padding: 0px 30px; text-align: left;}
+    #home-find-nearby .d-selection { margin: 20px;}
+    #form-faq { padding: 0px 20px;}
+    #form-faq .more { right: 40px;}
+    .d-form { padding: 0px 20px;}
+    #home-alzheimer-box h4, #home-alzheimer-box .row, #ask-question h4 { padding-left: 30px;}
+    #home-alzheimer-box .more { margin-bottom: 20px;}
+    #home-you-find { }
+    #home-you-find .text { padding: 30px; text-align: left; font-size: 16px;}
+    #home-you-find .col-20 { float: left; width: 80%; padding: 22px 30px;}
+    #home-you-find .col-4 { float: right; width: 20%;}
+
+    #home-twitter-box {}
+    #home-twitter-box h3 { text-align: center; padding: 0px 30px;}
+    #home-twitter-box .tweet { padding: 20px 30px;}
+
+
+}
